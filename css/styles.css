@@ -1,0 +1,166 @@
+body {
+    margin: 0px;
+    background-color: #343232;
+    overflow-x: hidden;
+}
+
+.navigation {
+    background-color: #895F5F;
+    height: 75px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.non-active-button {
+    display: block;
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    line-height: 60px;
+    padding: 0px 50px;
+    margin-left: 50px;
+    border-radius: 500px;
+    background-color: #4F1E1E;
+    border: 1px solid white;
+    transition: background-color 0.3s ease;
+    transition: color 0.3 ease;
+    transition: font-size 0.5s ease;
+}
+
+.non-active-button:hover {
+    background-color: #3e1a1a;
+    
+}
+.current-page:hover {
+    background-color: rgb(78, 78, 78);
+}
+
+.current-page:active {
+    background-color: rgb(60, 60, 60);
+}
+
+.non-active-button:active {
+    background-color: #2d1313;
+}
+
+.current-page {
+    display: block;
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    line-height: 60px;
+    padding: 0px 50px;
+    margin-left: 50px;
+    border-radius: 500px;
+    background-color: gray;
+    border: 1px solid white;
+    transition: background-color 0.3s ease;
+    transition: color 0.3 ease;
+    transition: font-size 0.5s ease;
+}
+
+hr {
+    width: 500px;
+    background-color: white;
+}
+
+.name {
+    margin-top: 219px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.miata-img {
+    margin-top: 5px;
+    margin-left: 225px;
+    background-image: url("/resources/miata.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 500px;
+}
+
+.about-etc {
+    margin-top: 150px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.randtext {
+    margin-top: 15px;
+}
+
+.python-page {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.python-input {
+    background-color: grey;
+    padding-bottom: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+    margin-left: 13%;
+}
+
+.python-output {
+    background-image: url('/resources/Screenshot_1.png');
+    background-color: rgb(104, 104, 104);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15%;
+    margin-top: 1%;
+    width: 75vw;
+    margin-left: 13%;
+}
+
+.webDesign {
+    margin-top: 75px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.htmlpage {
+    margin-top: 75px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.webDesignImage {
+    background-image: url('/resources/figma.png');
+    background-color: rgb(104, 104, 104);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15%;
+    margin-top: 1%;
+    width: 75vw;
+    margin-left: 13%;
+}
